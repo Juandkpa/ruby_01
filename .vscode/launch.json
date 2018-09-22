@@ -5,18 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug Basic",
+            "name": "Basic",
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "${workspaceRoot}/basic.rb"
         },
         {
-            "name": "Debug Control Structures",
+            "name": "Conditionals",
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/control_structures.rb"
+            "program": "${workspaceRoot}/control_structures/conditionals.rb"
+        },
+        {
+            "name": "Loops",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/control_structures/loops.rb"
         }
     ]
 }

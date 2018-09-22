@@ -32,6 +32,11 @@ begin
     i+=1
 end until i > num
 
+#for: inclusivo => usamos 2 puntos .., exclusivo => usamos 3 puntos ...
+for i in 1..10
+    puts i
+end
+
 #clausula loop itera hasta encontrar una clasula break
 i = 0
 loop {
