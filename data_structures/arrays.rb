@@ -6,6 +6,8 @@ puts arr
 #para agregar elementos al array
 arr.push(1, "frase")
 puts arr    
+arr << {clase: 20}
+puts arr
  
 #para incializar un array vacio
 arr = []
