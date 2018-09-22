@@ -71,3 +71,17 @@ puts "Dime tu nombre again!"
 name = gets.chomp #con el metodo chomp evitamos este cambio de linea
 
 puts name.capitalize! #el signo de admiración reemplaza el valor de la variable insitu.
+
+
+=begin
+simbolos: Son cadenas inmutables (que no se pueden modificar), ruby solo crea un objeto, cada vez
+que nos referimos a un simbolo y por esto son mejores en rendimiento
+=end
+
+puts :nombre.to_s # "nombre"
+
+puts "cadena".to_sym #:cadena
+
+puts :simbolo
+puts "hello" << " world"
+#puts :simbolo << " world", no es posible hacerlo, pues los simbolos son inmutables

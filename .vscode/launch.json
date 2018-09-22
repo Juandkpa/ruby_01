@@ -24,6 +24,13 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "${workspaceRoot}/control_structures/loops.rb"
-        }
+        },
+        {
+            "name": "Hash",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "program": "${workspaceRoot}/data_structures/hash.rb"
+        },
     ]
 }
