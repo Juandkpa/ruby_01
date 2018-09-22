@@ -44,4 +44,30 @@ print "Una linea"
 print "la misma linea"
 
 
+=begin
+Todo en ruby son objetos.
+Como todo son objetos, todo en Ruby tiene a;gunas habilidades por defecto
+>>> Los Métodos!
+=end
 
+#String Methods.
+
+size_string = "Me gusta ruby".length #longitud de un string
+reversed = "Me gusta ruby".reverse #invierte el string
+without_spaces = "Anita lava la tina".delete(' ')
+striped = "  hola ruby es facil ".strip()
+
+puts "length: #{size_string} \n reverse: #{reversed} \n delete: #{without_spaces} \n strip: #{striped} "
+
+mayus = "Hola Mayusculas".upcase
+minus = "Hola Minusculas".downcase
+cap = "Hola Capitalize".capitalize
+
+#Recibir entradas de usuario
+puts "Dime tu nombre!"
+name_change_line = gets #por defecto introduce cambio de linea
+
+puts "Dime tu nombre again!"
+name = gets.chomp #con el metodo chomp evitamos este cambio de linea
+
+puts name.capitalize! #el signo de admiración reemplaza el valor de la variable insitu.
