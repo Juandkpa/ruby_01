@@ -8,7 +8,7 @@
 gem install ruby-debug-ide
 gem install debase (or gem install byebug)
 ```
-1. Ir a la vista del debug en visual code  <img src="https://cdn2.iconfinder.com/data/icons/security-2-1/512/debugger-128.png" alt="drawing" width="20"/> y allí apareceran en un select las opciones de debug configuradas (una por cada archivo). estas se encuentran en .vscode/launch.json donde se encuentra un objeto json de configuración como este:
+3. Ir a la vista del debug en visual code  <img src="https://cdn2.iconfinder.com/data/icons/security-2-1/512/debugger-128.png" alt="drawing" width="20"/> y allí apareceran en un select las opciones de debug configuradas (una por cada archivo). estas se encuentran en .vscode/launch.json donde se encuentra un objeto json de configuración como este:
 ```json
 [{
     "name": "Basic",
@@ -18,4 +18,6 @@ gem install debase (or gem install byebug)
     "program": "${workspaceRoot}/basic.rb"
 }]
 ```
+alli se pueden configurar las que queramos.
 
+4. Seleccionar la opcíón del select deseada y listo.
